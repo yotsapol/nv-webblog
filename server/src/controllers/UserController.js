@@ -12,6 +12,7 @@ module.exports = {
             })     
         }   
     }, 
+    
     // create user   
     async create (req, res) {         
         try {       
@@ -74,5 +75,5 @@ module.exports = {
                 error: 'The user information was incorrect' 
                 })     
             }   
-        }, 
+        },
     }
